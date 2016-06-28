@@ -8,7 +8,7 @@
         "price" : 22.00,
         "fair_trade" : "Y",
         "orgin" : "Ethopia",
-        "availbility": 2546
+        "availability": 2546
     },
     {
         "id": "KN213",
@@ -19,7 +19,7 @@
         "price" : 38.00,
         "fair_trade" : "Y",
         "orgin" : "Italy",
-        "availbility": 4
+        "availability": 4
     },
      {
         "id": "KN21767",
@@ -30,7 +30,7 @@
         "price" : 9.00,
         "fair_trade" : "N",
         "orgin" : "Hawaii",
-        "availbility": 2
+        "availability": 2
     },
     {
         "id": "KN2167",
@@ -41,7 +41,7 @@
         "price" : 190.00,
         "fair_trade" : "N",
         "orgin" : "Iceland",
-        "availbility": 5
+        "availability": 5
     },
     {
         "id": "KN21",
@@ -52,7 +52,7 @@
         "price" : 25.00,
         "fair_trade" : "Y",
         "orgin" : "Ethopia",
-        "availbility": 50
+        "availability": 50
     },
     {
         "id": "KN1",
@@ -63,10 +63,8 @@
         "price" : 25.00,
         "fair_trade" : "Y",
         "orgin" : "Hawaii",
-        "availbility": 500
+        "availability": 500
     }
 ]
-
-  
 
 
