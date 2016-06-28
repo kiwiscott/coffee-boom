@@ -1,0 +1,54 @@
+[
+    {
+        "id": "KN200",
+        "title": "Malulani Estate Water",
+        "description": "Peaceful Strength  - From ancient times, Molokai has been known as place of great spiritual vigor. The old legends claim that the people of Molokai repelled invading armies simply by harnessing the power of prayer. The island continues this tradition of quiet self-reliance by resisting not armies but urban modernism. (Not one traffic light on Molokai!).A rich-bodied, medium roast coffee with a mild acidity, complemented with a luscious hint of chocolate. ", 
+        "grinds": ["8oz","Whole Bean"],
+        "size": "8oz",
+        "price" : 22.00
+    },
+    {
+        "id": "KN213",
+        "title": "Kona Nightingale - Moonlit Water",
+        "description": "A European roast adds character to the fragrant, wine- and fruit-toned bouquet of this 100% Kona coffee.", 
+        "grinds": ["Regular Grind","Whole Bean"],
+        "size": "8oz",
+        "price" : 38.00
+    },
+     {
+        "id": "KN21767",
+        "title": "Toasted Coconut Island Style Coffee",
+        "description": "Premium beans from throughout Hawai'i come together, capturing the essence of the islands. A medium roasting releases that essence. Then our roast master adds a touch of the balanced tropical sweetness of toasted coconut. Decadent!", 
+        "grinds": ["Regular Grind","Whole Bean"],
+        "size": "8oz",
+        "price" : 9.00
+    },
+    {
+        "id": "KN2167",
+        "title": "Kini Kini Coffee",
+        "description": "October in Kailua-Kona means one thing. Athletes by sea and athletes by land. The Kini Kini is a morning fixture on the horizon of Kailua Bay leading up to Saturday Race Day. Kini Kini brings them together every morning to enjoy the abundant flavor of the world's finest coffee! Enjoy this 100% Moloka'i dark roasted coffee. Share a cup. Share the memories.", 
+        "grinds": ["Regular Grind","Whole Bean"],
+        "size": "8oz",
+        "price" : 19.00
+    },
+    {
+        "id": "KN21",
+        "title": "Muleskinner Peaberry",
+        "description": "Our 2014 harvest produced excellent quality for this natural-dried peaberry. Full body, rich in flavor, a smooth finish with a hint of nuts. These single-formed beans are in limited supply and only available to our online 'ohana. ", 
+        "grinds": ["Regular Grind","Whole Bean"],
+        "size": "8oz",
+        "price" : 25.00
+    },
+    {
+        "id": "KN1",
+        "title": "Fruit of the Islands 100% Hawaiian Coffee 7oz Regular Grind",
+        "description": "Fruits of the Islands is proud to present the Coffees of the Hawaiian Islands in this 100% Hawaiian Blend coffee. We have captured the essence of the Hawaiian Islands by providing the coffee beans from Kauai, Oahu, Molokai, Maui and Hawaii (Big Island) to prepare this secret blend of premium Hawaiian coffee. We invite you to 'Taste all the Hawaiian Islands in one cup'.", 
+        "grinds": ["Whole Bean"],
+        "size": "7oz",
+        "price" : 25.00
+    }
+]
+
+  
+
+
