@@ -1,0 +1,117 @@
+# this is an example of the Uber API
+# as a demonstration of an API spec in YAML
+swagger: '2.0'
+info:
+  title: Joselitto's Coffee Supply
+  description: Move your app forward with the API
+  version: "1.0.0"
+# the domain of the service
+host: coffee-hawaii-boom.azurewebsites.net
+# array of all schemes that your API supports
+schemes:
+  - http
+# will be prefixed to all paths
+basePath: /api/v1.0
+produces:
+  - application/json
+paths:
+  /products:
+    get:
+      summary: Products offered by our company
+      description:
+        Returns the products in our catalog
+      responses:
+        200:
+          description: An array of products
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Product'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /inventory:
+    get:
+      summary: Product Inventory
+      description: |
+        The Inventory endpoint returns the stock levels for all of the products in our catalog
+      responses:
+        200:
+          description: An array of inventory items
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/ProductInventory'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /inventory/{product_identifier}:
+    get:
+      summary: Product Inventory
+      description: |
+        Returns the stock levels for a  product in our catalog
+      parameters:
+        - name: product_identifier
+          in: path
+          description: ID of product to return the inventory for
+          required: true
+          type: string
+      responses:
+        200:
+          description: An inventory item
+          schema:
+            $ref: '#/definitions/ProductInventory'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+            
+definitions:
+  ProductInventory:
+    type: object
+    properties:
+     product_identifier:
+      type: string
+      description: Unique identifier representing a specific product
+     quantity:
+      type: integer
+      description: Current Stock Level on-hand and ready to ship
+  Product:
+    type: object
+    properties:
+      product_identifier:
+        type: string
+        description: Unique identifier representing a specific product
+      description:
+        type: string
+        description: Description of product.
+      tasting_notes:
+        type: string
+        description: Tasting Notes for a product.
+      origin:
+        type: string
+        description: Region where the beans for the coffee was grown
+      size:
+        type: string
+        description: Text Description for the Size of the coffee
+      grind:
+        type: string
+        description: Its clearly the grind
+      price:
+        type: number
+        description: The price in USD for the coffee
+      availability:
+        type: integer
+        description: In-stock and ready to ship quantity
+  Error:
+    type: object
+    properties:
+      code:
+        type: integer
+        format: int32
+      message:
+        type: string
+      fields:
+        type: string
